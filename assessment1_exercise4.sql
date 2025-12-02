@@ -42,3 +42,8 @@ VALUES ('Plymbridge Circular', 'Plymouth, Devon', 8.50, 120, 180, 'A scenic circ
 
 INSERT INTO CW1_Trail (TrailName, Address, Length, Elevation, Duration, Summary, UserID, DifficultyCode, RouteTypeCode)
 VALUES ('Waterfront Walk', 'Plymouth Waterfront', 5.00, 50, 90, 'Easy walk along the waterfront.', 2, 'Easy', 'Point-to-Point');
+
+SELECT * FROM CW1_User;
+SELECT * FROM CW1_Difficulty;
+SELECT * FROM CW1_RouteType;
+SELECT * FROM CW1_Trail;
